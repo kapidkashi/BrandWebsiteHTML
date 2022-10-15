@@ -1,0 +1,251 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.8);
+    padding: 0;
+    margin:0;
+}
+
+.nav-container{
+    display:flex;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3); 
+}
+
+.expander{
+    width:47em;
+}
+
+.nav-list{
+    display:inline-flex;
+   list-style: none;
+   padding: 0.5em;
+}
+
+.nav-list>li{
+    margin: 0 1em;
+    line-height: 45px;
+}
+
+.nav-list>li>a{
+    text-decoration: none;
+    line-height:45px;
+}
+
+.nav-list>li>a:hover{
+    color: #29a19c
+}
+
+.background{
+    
+    height: 70vh;
+    background: url('../assets/asus.jpg') ;     
+    background-position: center;
+    background-size: cover;  
+    opacity: 90%;
+}
+
+.title{
+    font-size: 7em;
+    font-family:rog;
+    text-align: center;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:black;
+    font-weight:1000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #de272c;
+    padding-top: 1em ;
+}
+
+.subtitle{
+    padding-top: 3.5em ;
+    font-size: 1.5em;
+    font-family:rog;
+    font-weight:1000;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.btn-primary{
+    background-color: #29a19c;
+    color: #fff;
+    font-size: 1em;
+    padding: .6em 2em;
+    border:none;
+    border-radius: 0.3em;
+    position:absolute;
+    top: 85%;
+    left: 50%;
+}
+
+.btn-primary:hover{
+    background-color: #257c78;
+    cursor: pointer;
+}
+
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.left {
+    width: 45%;
+}
+  
+.right {
+    width: 55%;
+}
+
+.profile-img{
+    width: 500px;
+    height: 500px;
+    margin:1em 0 0 3.5em;
+}
+
+.header>h1{
+    font-family:rog;
+    text-align: center;
+    padding-top:0.5em;
+    font-size: 5em;
+}
+
+.laptop-img{
+    width: 300px;
+    height:300px;
+    padding: 1em 0 1em 6em;
+}
+
+.strix>h1{
+    font-family: rog;
+    font-size:  3em;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown:hover + .dropdown-content {
+    display: block;
+}
+
+.strix-desc>h1{
+    text-align: center;
+    font-family: rog;
+}
+
+.strix-desc>p{
+    padding:1em 3em 0 3em;
+    text-align: justify-content ;
+}
+
+table{
+    padding-left: 15em;
+}
+
+table>td{
+    padding-left: 5em;
+}
+
+.zephyrus>h1{
+    font-family: rog;
+    font-size:  3em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.zephyrus-desc>h1{
+    text-align: center;
+    font-family: rog;
+}
+
+.zephyrus-desc>p{
+    padding:1em 3em 0 3em;
+    text-align: justify-content ;
+}
+
+.year>p{  
+   padding-top: 10em;
+    text-align: center;
+    font-size: xx-small;
+    
+}
+.about>h1{
+
+    color: #de272c;
+    font-family: rog;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:black;
+    font-size:  3.5em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.about>p{
+    font-family: rog;
+    font-size:  1.5em;
+    color: #fff;
+    padding:1em 5em 0 5em;
+    text-align: justify-content ;
+}
+
+.about{ 
+    
+    background: url('../assets/rog.gif') ; 
+    margin-top: 2em;
+    background-position: center;
+    background-size: cover;  
+   
+}
+
+.contact>h1{
+    color: #de272c;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:black;
+    font-family: rog;
+    font-size: 3em;
+    padding: 2em 0 0 1em;
+}
+
+.contact>ul{
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+#icon{
+    padding: 0 0 0 2em;
+}
+
+
+.contact>ul>li>a{
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+.credit{
+    margin-top: 1em;
+}
+.credit>p{
+    
+    text-align: center;
+    font-size:x-small;
+}
